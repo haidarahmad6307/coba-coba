@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.navbar {
+  background-color: #5B61B2 !important;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #EEE2DF;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #e0bfbf;
+  font-size: 1.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.drop-login {
+  color: #000;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+.card-img-top {
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.3s ease;
+}
+
+
+.card-body {
+  text-align: center;
+}
+
+
+
+.card-body p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.btn-tambah,
+.btn-lihat {
+  background-color: #5B61B2;
+  border-color: #5B61B2;
+  color: #fff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-tambah:hover,
+.btn-lihat:hover {
+  background-color: #8e7f6c;
+  border-color: #8e7f6c;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+}
